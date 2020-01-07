@@ -25,9 +25,14 @@ struct DrinkRow: View {
                     ForEach (self.drinks, id: \.name)
                     {
                         drink in
-                        DrinkItem(drink: drink)
-                        .frame(width: 300)
-                            .padding(.trailing, 30)
+                        
+                        NavigationLink(destination: DrinkDetail(drink: drink))
+                        {
+                            DrinkItem(drink: drink)
+                                .frame(width: 300)
+                                .padding(.trailing, 30)
+                        }
+                       
                     }
                 }
             }
