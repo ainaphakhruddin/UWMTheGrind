@@ -38,6 +38,7 @@
 		0C53F2C323C4F212005363E8 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 		0C53F2C523C4F6E5005363E8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0C53F2C723C4F8D9005363E8 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
+		0C53F2CC23C51CD1005363E8 /* drinks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +77,10 @@
 				0C53F2AB23C3C448005363E8 /* Assets.xcassets */,
 				0C53F2B023C3C448005363E8 /* LaunchScreen.storyboard */,
 				0C53F2B323C3C448005363E8 /* Info.plist */,
+				0C53F2CB23C51CD0005363E8 /* Model */,
 				0C53F2B923C3CA8A005363E8 /* drinks.json */,
 				0C53F2AD23C3C448005363E8 /* Preview Content */,
-				0C53F2BB23C3CAE2005363E8 /* Data.swift */,
-				0C53F2BD23C3CD01005363E8 /* Drink.swift */,
-				0C53F2BF23C3CE04005363E8 /* DrinkItem.swift */,
-				0C53F2C323C4F212005363E8 /* DrinkRow.swift */,
-				0C53F2C523C4F6E5005363E8 /* Home.swift */,
-				0C53F2C723C4F8D9005363E8 /* DrinkDetail.swift */,
+				0C53F2CA23C51C90005363E8 /* Views */,
 			);
 			path = UWMTheGrind;
 			sourceTree = "<group>";
@@ -94,6 +91,27 @@
 				0C53F2AE23C3C448005363E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C53F2CA23C51C90005363E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C53F2BD23C3CD01005363E8 /* Drink.swift */,
+				0C53F2BF23C3CE04005363E8 /* DrinkItem.swift */,
+				0C53F2C323C4F212005363E8 /* DrinkRow.swift */,
+				0C53F2C523C4F6E5005363E8 /* Home.swift */,
+				0C53F2C723C4F8D9005363E8 /* DrinkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C53F2CB23C51CD0005363E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C53F2CC23C51CD1005363E8 /* drinks.json */,
+				0C53F2BB23C3CAE2005363E8 /* Data.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

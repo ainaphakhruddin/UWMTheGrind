@@ -17,7 +17,10 @@ struct HomeView: View {
             by: {$0.category.rawValue})
     }
     var body: some View {
+        ZStack{
+            Color.blue
         NavigationView{
+            
             List(categories.keys.sorted(),
                  id: \String.self)
             {
@@ -26,8 +29,11 @@ struct HomeView: View {
                     .padding(.top)
                     .padding(.bottom)
             }
-        .navigationBarTitle(Text("The Grind"))
+            .navigationBarTitle(Text("The Grind"))
+            
+        
         }
+    }
     }
 }
 

@@ -1,0 +1,51 @@
+[{
+        "id": 1001,
+        "name": "Chai Tea",
+        "imageName": "chaiTea",
+        "description": "This is a term that literally means 'drowned'. It is the description of a shot of separately served espresso that is later poured over a the top of a scoop of vanilla ice cream or gelato. This beverage is usually served in a short drink glass and is a Italian desert favourite. Popular Affogatos include Vanilla Affogato, Mocha Affogato, and Peppermint Affogato.",
+        "category": "hot"
+    },
+    {
+        "id": 1002,
+        "name": "Cold Brew",
+        "imageName": "coldBrew",
+        "description": "This is a term that literally means 'drowned'. It is the description of a shot of separately served espresso that is later poured over a the top of a scoop of vanilla ice cream or gelato. This beverage is usually served in a short drink glass and is a Italian desert favourite. Popular Affogatos include Vanilla Affogato, Mocha Affogato, and Peppermint Affogato.",
+        "category": "cold"
+    },
+    {
+        "id": 1003,
+        "name": "Flat White",
+        "imageName": "flatWhite",
+        "description": "This is a term that literally means 'drowned'. It is the description of a shot of separately served espresso that is later poured over a the top of a scoop of vanilla ice cream or gelato. This beverage is usually served in a short drink glass and is a Italian desert favourite. Popular Affogatos include Vanilla Affogato, Mocha Affogato, and Peppermint Affogato.",
+        "category": "hot"
+    },
+    {
+        "id": 1004,
+        "name": "Iced Cappucino",
+        "imageName": "icedCappucino",
+        "description": "This is a term that literally means 'drowned'. It is the description of a shot of separately served espresso that is later poured over a the top of a scoop of vanilla ice cream or gelato. This beverage is usually served in a short drink glass and is a Italian desert favourite. Popular Affogatos include Vanilla Affogato, Mocha Affogato, and Peppermint Affogato.",
+        "category": "cold"
+    },
+    {
+        "id": 1005,
+        "name": "Latte",
+        "imageName": "latte",
+        "description": "This is a term that literally means 'drowned'. It is the description of a shot of separately served espresso that is later poured over a the top of a scoop of vanilla ice cream or gelato. This beverage is usually served in a short drink glass and is a Italian desert favourite. Popular Affogatos include Vanilla Affogato, Mocha Affogato, and Peppermint Affogato.",
+        "category": "hot"
+    },
+    {
+        "id": 1006,
+        "name": "Macchiato",
+        "imageName": "macchiato",
+        "description": "This is a term that literally means 'drowned'. It is the description of a shot of separately served espresso that is later poured over a the top of a scoop of vanilla ice cream or gelato. This beverage is usually served in a short drink glass and is a Italian desert favourite. Popular Affogatos include Vanilla Affogato, Mocha Affogato, and Peppermint Affogato.",
+        "category": "hot"
+    },
+    {
+        "id": 1007,
+        "name": "Peppermint Mocha",
+        "imageName": "peppermintMocha",
+        "description": "A combination of chocolate syrup and a shot of espresso, topped with steamed milk and a layer of micro-foam. Finished with a sprinkled of chocolate.",
+
+        "category": "hot"
+    }
+]
